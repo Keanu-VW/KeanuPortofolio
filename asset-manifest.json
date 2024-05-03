@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/github.io/KeanuPortofolio/static/css/main.c747f309.css",
-    "main.js": "/github.io/KeanuPortofolio/static/js/main.de7db99e.js",
-    "static/js/453.24666d6c.chunk.js": "/github.io/KeanuPortofolio/static/js/453.24666d6c.chunk.js",
-    "index.html": "/github.io/KeanuPortofolio/index.html",
-    "main.c747f309.css.map": "/github.io/KeanuPortofolio/static/css/main.c747f309.css.map",
-    "main.de7db99e.js.map": "/github.io/KeanuPortofolio/static/js/main.de7db99e.js.map",
-    "453.24666d6c.chunk.js.map": "/github.io/KeanuPortofolio/static/js/453.24666d6c.chunk.js.map"
+    "main.css": "/KeanuPortofolio/static/css/main.c747f309.css",
+    "main.js": "/KeanuPortofolio/static/js/main.d079871b.js",
+    "static/js/453.24666d6c.chunk.js": "/KeanuPortofolio/static/js/453.24666d6c.chunk.js",
+    "index.html": "/KeanuPortofolio/index.html",
+    "main.c747f309.css.map": "/KeanuPortofolio/static/css/main.c747f309.css.map",
+    "main.d079871b.js.map": "/KeanuPortofolio/static/js/main.d079871b.js.map",
+    "453.24666d6c.chunk.js.map": "/KeanuPortofolio/static/js/453.24666d6c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c747f309.css",
-    "static/js/main.de7db99e.js"
+    "static/js/main.d079871b.js"
   ]
 }
