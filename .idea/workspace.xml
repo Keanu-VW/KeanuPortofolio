@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8985def-17fc-45c9-8638-dae6698ccd6f" name="Changes" comment="">
+    <list default="true" id="d8985def-17fc-45c9-8638-dae6698ccd6f" name="Changes" comment="Attempt 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +36,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.deploy.executor": "Run",
     "npm.start.executor": "Run",
     "vue.rearranger.settings.migration": "true"
   }
@@ -49,7 +54,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.start">
     <configuration name="deploy" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -84,11 +89,33 @@
       <option name="presentableId" value="Default" />
       <updated>1714752404743</updated>
       <workItem from="1714752405803" duration="28000" />
-      <workItem from="1714752570480" duration="268000" />
+      <workItem from="1714752570480" duration="977000" />
     </task>
+    <task id="LOCAL-00001" summary="Attempt 1">
+      <option name="closed" value="true" />
+      <created>1714752946517</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714752946517</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Attempt 2">
+      <option name="closed" value="true" />
+      <created>1714753093432</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714753093432</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Attempt 1" />
+    <MESSAGE value="Attempt 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Attempt 2" />
   </component>
 </project>
