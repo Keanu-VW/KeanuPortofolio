@@ -1,38 +1,89 @@
-.App {
+#root {
+  background-color: black;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  font-family: "helvetica", "helvetica neue", sans-serif;
+}
+
+.panel-row {
+  width: 120vw;
+  height: 100vh;
+  overflow: hidden;
+  transform: translateX(-10vw);
+}
+
+.panel {
+  position: relative;
+  z-index: 10;
+  display: inline-block;
+  width: 20vw;
+  height: 100vh;
+  background-color: yellow;
+  transform: skewX(5deg);
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition:
+          transform 0.5s ease-in-out,
+          top 0.5s ease-in-out,
+          left 0.5s ease-in-out,
+          width 0.5s ease-in-out,
+          height 0.5s ease-in-out,
+          skew 0.5s ease-in-out;
+}
+
+.panel:first-child, .panel:last-child {
+  width: 30vw;
+}
+
+
+.panel:first-child h1{
+  transform: skewX(-5deg) translateX(5vw);
+}
+
+.panel:last-child h1{
+  transform: skewX(-5deg) translateX(-5vw);
+}
+
+.hover-text {
+  position: relative;
+  background-color: orange;
+  width: 100%;
+  height: 20%;
+  align-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hover-text h1{
+  transform: skewX(-5deg);
+  font-size: 2vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.panel:hover {
+  transition: 0.25s ease-in-out;
+  transform: scale(1.1) skewX(5deg);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.fullscreen {
+  position: absolute;
+  transform: skewX(0deg) translateX(10vw);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  transition:
+          transform 0.5s ease-in-out,
+          top 0.5s ease-in-out,
+          left 0.5s ease-in-out,
+          width 0.5s ease-in-out,
+          height 0.5s ease-in-out,
+          skew 0.5s ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+.fullscreen:first-child, .fullscreen:last-child {
+  width: 100vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fullscreen:hover {
+  transform: skewX(0deg) translateX(10vw);
 }
